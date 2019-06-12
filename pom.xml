@@ -22,6 +22,7 @@
         <module>mycloud-zuulgateway9527</module>
         <module>mycloud-config3344</module>
         <module>mycloud-configclient3355</module>
+        <module>mycloud-configeurekaclient7001</module>
     </modules>
     <packaging>pom</packaging>
 
