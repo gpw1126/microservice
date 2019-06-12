@@ -8,5 +8,10 @@ spring:
     config:
       server:
         git:
-          uri: git@github.com:gpw1126/microservice.git #GitHub上面的git仓库名字
+          uri: git@github.com:gpw1126/microservice.git
+eureka:
+  client:
+    fetch-registry: false
+  client:
+    register-with-eureka: false #GitHub上面的git仓库名字
 
