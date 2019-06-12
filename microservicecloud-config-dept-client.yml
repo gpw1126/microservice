@@ -22,7 +22,7 @@ spring:
       max-wait-millis: 200 
 mybatis:
   config-location: classpath:mybatis/mybatis.cfg.xml
-  type-aliases-package: com.atguigu.springcloud.entities
+  type-aliases-package: com.gpw.springcloud.entities
   mapper-locations:
   - classpath:mybatis/mapper/**/*.xml
  
@@ -36,7 +36,7 @@ eureka:
  
 info:
   app.name: gpw-microservicecloud-springcloudconfig01
-  company.name: www.atguigu.com
+  company.name: www.gpw.com
   build.artifactId: $project.artifactId$
   build.version: $project.version$
 ---
@@ -61,7 +61,7 @@ spring:
   
 mybatis:
   config-location: classpath:mybatis/mybatis.cfg.xml
-  type-aliases-package: com.atguigu.springcloud.entities
+  type-aliases-package: com.gpw.springcloud.entities
   mapper-locations:
   - classpath:mybatis/mapper/**/*.xml
  
@@ -75,6 +75,6 @@ eureka:
  
 info:
   app.name: gpw-microservicecloud-springcloudconfig02
-  company.name: www.atguigu.com
+  company.name: www.gpw.com
   build.artifactId: $project.artifactId$
   build.version: $project.version$
