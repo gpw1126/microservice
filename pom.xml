@@ -20,6 +20,7 @@
         <module>mycloud-providerdepthystrix8001</module>
         <module>mycloud-consumerhystrixdashboard</module>
         <module>mycloud-zuulgateway9527</module>
+        <module>mycloud-config3344</module>
     </modules>
     <packaging>pom</packaging>
 
