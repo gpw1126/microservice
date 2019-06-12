@@ -12,6 +12,5 @@ spring:
 eureka:
   client:
     fetch-registry: false
-  client:
     register-with-eureka: false #GitHub上面的git仓库名字
 
