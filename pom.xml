@@ -21,6 +21,7 @@
         <module>mycloud-consumerhystrixdashboard</module>
         <module>mycloud-zuulgateway9527</module>
         <module>mycloud-config3344</module>
+        <module>mycloud-configclient3355</module>
     </modules>
     <packaging>pom</packaging>
 
