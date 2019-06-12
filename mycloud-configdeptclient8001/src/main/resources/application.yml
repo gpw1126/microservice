@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: microservicecloud-config-dept-client
+eureka:
+  client:
+    fetch-registry: false
+    register-with-eureka: false
